@@ -15,7 +15,8 @@ function writeOrdersData(data) {
 // Function to find an order by ID
 function findOrderById(id) {
   const orders = readOrdersData();
-  return orders.find(order => order.id == id.toString());
+  id = id.toString()
+  return orders.find(order => order.id == id);
 }
 
 // Function to create a new order

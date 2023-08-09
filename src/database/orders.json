@@ -234,5 +234,31 @@
       }
     ],
     "total": "84.980"
+  },
+  {
+    "products": [
+      {
+        "productId": 1,
+        "quantity": 1
+      },
+      {
+        "productId": 5,
+        "quantity": 7
+      }
+    ],
+    "userId": 2,
+    "id": 17,
+    "total": "NaN"
+  },
+  {
+    "products": [
+      {
+        "productId": 1,
+        "quantity": 1
+      }
+    ],
+    "userId": 6,
+    "id": 18,
+    "total": "19.990"
   }
 ]

@@ -67,11 +67,12 @@ function itemAdd(updatedCart) {
 }
 
 // Function to delete a cart by ID
+
 function deleteCart(id) {
   const carts = readCartsData();
   const index = carts.findIndex(cart => cart.id == id.toString());
   if (index !== -1) {
-    const deletedCart = carts.splice(index, 1)[0];
+    const deletedCart = carts.splice(index, 1);
     writeCartsData(carts);
     return deletedCart;
   }

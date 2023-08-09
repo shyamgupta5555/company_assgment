@@ -26,5 +26,19 @@
     "email": "john@example.com",
     "password": "shyam@gmail.com",
     "role": "admin"
+  },
+  {
+    "id": 5,
+    "name": "prha",
+    "email": "prha@example.com",
+    "password": "shyam@gmail.com",
+    "role": "user"
+  },
+  {
+    "id": 6,
+    "name": "admin",
+    "email": "admin@example.com",
+    "password": "shyam@gmail.com",
+    "role": "admin"
   }
 ]

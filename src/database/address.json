@@ -7,9 +7,8 @@
     "zip": "12345"
   },
   {
+    "street": "noida",
     "id": 2,
-    "userId": 3,
-    "street": "456 Elm Ave",
     "city": "Townsville",
     "state": "NY",
     "zip": "67890"

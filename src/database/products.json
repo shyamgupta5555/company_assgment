@@ -32,5 +32,17 @@
   {
     "id": 7,
     "seller": "shyam Doe"
+  },
+  {
+    "id": 8,
+    "productName": "poketB",
+    "price": 29.99,
+    "seller": "admin"
+  },
+  {
+    "price": "45",
+    "id": 9,
+    "name": "poket pB",
+    "seller": "admin"
   }
 ]

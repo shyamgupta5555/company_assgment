@@ -26,7 +26,7 @@ exports.createCart = (req, res) => {
     if (card)
       return res
         .status(400)
-        .send({ message: "use update api already create cart" });
+        .send({ message: `use update api already create cart id ${card.id}` });
 
     if (!newCart.products)
       return res.status(400).send({ message: "products is required " });
@@ -120,9 +120,9 @@ exports.removeItem = (req, res) => {
     const indexToRemove = carts.products.findIndex(
       (cart) => cart.productId === productId
     );
-    console.log(indexToRemove);
+    
 
-    if (indexToRemove !== -1) {
+    if (indexToRemove != -1) {
       carts.products.splice(indexToRemove, 1);
     } else {
       return res.status(400).send({ message: "products not found" });

@@ -11,6 +11,7 @@ exports.createOrder = (req, res) => {
     const checkCartId = cartHelper.findCartById(cartId.toString());
     if (!checkCartId)
       return res.status(404).send({ message: "cart id not found" });
+
     let total = 0;
 
     let len = checkCartId.products.length;
@@ -33,8 +34,8 @@ exports.createOrder = (req, res) => {
     checkCartId.total = total.toFixed(3);
     const createdOrder = orderHelper.createOrder(checkCartId);
 
-    let s = cartHelper.deleteCart(cartId.toString());
-    console.log(s);
+    cartHelper.deleteCart(cartId.toString());
+    
     return res.status(201).json(createdOrder);
   } catch (err) {
     return res.status(500).send({ message: err.message });
@@ -43,9 +44,10 @@ exports.createOrder = (req, res) => {
 
 exports.getOrder = (req, res) => {
   try {
-    const id = req.params.id
+    const id = req.params.orderId
+    
     const index = orderHelper.findOrderById(id);
-    if (index) return res.status(400).send({ message: "not found order id" });
+    if (!index) return res.status(400).send({ message: "not found order id" });
      return res.status(200).send({ index : index });
 
   } catch (err) {
