@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "shyam Doe",
+    "email": "john@example.com",
+    "password": "shyam@gmail.com",
+    "role": "admin"
+  },
+  {
+    "id": 2,
+    "name": "shyam Doe",
+    "email": "john@example.com",
+    "password": "shyam@gmail.com",
+    "role": "admin"
+  },
+  {
+    "id": 3,
+    "name": "shyam Doe",
+    "email": "john@example.com",
+    "password": "shyam@gmail.com",
+    "role": "admin"
+  },
+  {
+    "id": 4,
+    "name": "shyam Doe",
+    "email": "john@example.com",
+    "password": "shyam@gmail.com",
+    "role": "admin"
+  }
+]

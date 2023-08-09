@@ -1,0 +1,57 @@
+[
+  {
+    "street": "  St",
+    "id": 1,
+    "city": "Exampleville",
+    "state": "CA",
+    "zip": "12345"
+  },
+  {
+    "id": 2,
+    "userId": 3,
+    "street": "456 Elm Ave",
+    "city": "Townsville",
+    "state": "NY",
+    "zip": "67890"
+  },
+  {
+    "id": 3,
+    "userId": 4,
+    "street": "789 Oak St",
+    "city": "Villageville",
+    "state": "TX",
+    "zip": "54321"
+  },
+  {
+    "id": 4,
+    "userId": 5,
+    "street": "321 Pine Rd",
+    "city": "Countryside",
+    "state": "FL",
+    "zip": "98765"
+  },
+  {
+    "id": 5,
+    "userId": 6,
+    "street": "654 Maple Ln",
+    "city": "Hometown",
+    "state": "IL",
+    "zip": "45678"
+  },
+  {
+    "street": "123 Main St",
+    "city": "Exampleville",
+    "state": "CA",
+    "zip": "12345",
+    "userId": 2,
+    "id": 6
+  },
+  {
+    "street": "123 Main St",
+    "city": "Exampleville",
+    "state": "CA",
+    "zip": "12345",
+    "userId": 2,
+    "id": 7
+  }
+]

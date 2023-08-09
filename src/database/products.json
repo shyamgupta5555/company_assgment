@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "name": "Product A",
+    "price": 19.99,
+    "seller": "John Doe"
+  },
+  {
+    "price": "45",
+    "id": 2,
+    "seller": "Jane Smith"
+  },
+  {
+    "price": "45",
+    "id": 3,
+    "seller": "Michael Johnson"
+  },
+  {
+    "seller": "45",
+    "id": 5
+  },
+  {
+    "name": "Product B",
+    "price": 29.99,
+    "seller": "shyam Doe",
+    "id": 6
+  },
+  {
+    "seller": "45",
+    "id": 7
+  },
+  {
+    "id": 7,
+    "seller": "shyam Doe"
+  }
+]
