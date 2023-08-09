@@ -1,6 +1,6 @@
 # company_project
 
-I'm excited to share that I've successfully completed the project within 8 hours. I've developed a Node.js application with
+I'm excited to share that I've successfully completed the project within 7 hours. I've developed a Node.js application with
  CRUD operations for users, products, carts, orders, and addresses using JSON files for storage. The code is available on GitHub along with a Postman collection showcasing API functionality.
 
 GitHub Repository: https://github.com/shyamgupta5555/company_assgment
